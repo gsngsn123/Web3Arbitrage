@@ -33,10 +33,10 @@ models = {
         ],
     },
     'polygon': {
-        'provider': 'https://matic-mainnet.chainstacklabs.com',
+        'provider': 'http://localhost:8545',
         "gasPrice": 2000,        
         'exchangOracleAddr': '0x74Ef0781dd8bD7849c59B0f5e7888aa1932708AF',
-        'executorAddr': '0x61255D9387a325BEA3bF3B994d32EE38B5947830',
+        'executorAddr': '0xAd213a8f2161beeA997159BF74e7Fdc450665d98',
         'routers': [
             {
                 'name': 'QuickSwap',
@@ -61,6 +61,16 @@ models = {
             {
                 'name': 'Dfyn',
                 'address': '0xA102072A4C07F06EC3B4900FDC4C7B80b6c57429',
+                'r': 0.9970,
+            },
+            {
+                'name': 'Jetswap',
+                'address':'0x5C6EC38fb0e2609672BDf628B1fD605A523E5923',
+                'r': 0.9970,
+            },
+            {
+                'name': 'WaltSwap',
+                'address':'0x3a1D87f206D12415f5b0A33E786967680AAb4f6d',
                 'r': 0.9970,
             },
         ],
