@@ -132,12 +132,6 @@ models = {
   'decimals': 18
 },
 {
-  'address': "0x034b2090b579228482520c589dbD397c53Fc51cC",
-  'name': "VISION",
-  #'name'l: "Vision Token (PoS)",
-  'decimals': 18
-},
-{
   'address': "0x0361BdEAB89DF6BBcc52c43589FABba5143d19dD",
   'name': "dTOP",
   #'name'l: "dHEDGE Top Index (PoS)",
@@ -153,12 +147,6 @@ models = {
   'address': "0x049f12F5a27132d06DE128D48a914F6D82D33D23",
   'name': "JulD",
   #'name'l: "JulSwap (PoS)",
-  'decimals': 18
-},
-{
-  'address': "0x05089C9EBFFa4F0AcA269e32056b1b36B37ED71b",
-  'name': "Krill",
-  #'name'l: "Krill",
   'decimals': 18
 },
 {
@@ -184,12 +172,6 @@ models = {
   'name': "YELD",
   #'name'l: "Polyyeld finance",
   'decimals': 18
-},
-{
-  'address': "0x071ab2bf3Cb7c51897d74CEC58a47aE85d655956",
-  'name': "PDUCK",
-  #'name'l: "PolyDuck Token",
-  'decimals': 9
 },
 {
   'address': "0x071FAb39F04f436dA2C94E6BEDe9D9C40816b722",
