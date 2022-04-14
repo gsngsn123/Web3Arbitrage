@@ -34,7 +34,7 @@ models = {
     },
     'polygon': {
         'provider': 'http://localhost:8545',
-        "gasPrice": 100,        
+        "gasPrice": 70,        
         'exchangOracleAddr': '0xDc0aDF2c6bA9883D80cEa9695Da5E53943f679BA',
         'executorAddr': '0xAd213a8f2161beeA997159BF74e7Fdc450665d98',
         'routers': [
@@ -75,8 +75,9 @@ models = {
             },
             
         ],
-        'bases': [
-            {
+      
+       'bases': [
+           {
   'address': '0x97c23237E71492b6d2327804e2a73e1Ae6B95553',
   'name': 'CAT',
   #Name: 'Catcoin',
@@ -9072,6 +9073,66 @@ models = {
   'decimals': 18
 },
             {
+                'name': 'mimatic',
+                'address': '0xa3Fa99A148fA48D14Ed51d610c367C61876997F1',
+                'decimals': 18,
+            },
+            {
+                'name': 'FISH',
+                'address': '0x3a3Df212b7AA91Aa0402B9035b098891d276572B',
+                'decimals': 18,
+            },
+            {
+                'name': 'bct',
+                'address': '0x2F800Db0fdb5223b3C3f354886d907A671414A7F',
+                'decimals': 18,
+            },
+            {
+                'name': 'dpi',
+                'address': '0x2F800Db0fdb5223b3C3f354886d907A671414A7F',
+                'decimals': 18,
+            },
+           {
+               'name': 'frax',
+               'address': '0x45c32fA6DF82ead1e2EF74d17b76547EDdFaFF89',
+               'decimals': 18,
+           },
+           {
+               'name': 'ghst',
+               'address': '0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7',
+               'decimals': 18,
+           },
+           {
+               'name': 'grt',
+               'address': '0x5fe2B58c013d7601147DcdD68C143A77499f5531',
+               'decimals': 18,
+            },
+           {
+               'name': 'iron',
+               'address': '0xD86b5923F3AD7b585eD81B448170ae026c65ae9a',
+               'decimals': 18,
+           },
+           {
+               'name': 'klima',
+               'address': '0xd50EC6360f560a59926216Eafb98395AC430C9fD',
+               'decimals': 18,
+           },
+           {
+               'name': 'nexo',
+               'address': '0x41b3966B4FF7b427969ddf5da3627d6AEAE9a48E',
+               'decimals': 18,
+           },
+           {
+               'name': 'sand',
+               'address': '0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683',
+               'decimals': 18,
+           },
+           {
+               'name': 'WBtc',
+               'address': '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6',
+               'decimals': 8,
+           },   
+            {
                 'name': 'QUICK',
                 'address': '0x831753DD7087CaC61aB5644b308642cc1c33Dc13',
                 'decimals': 18,
@@ -9161,25 +9222,36 @@ models = {
                 'address': '0xDA537104D6A5edd53c6fBba9A898708E465260b6',
                 'decimals': 18,
             },
+            { 
+                'name': 'USDT',
+                'address': '0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
+                'decimals': 6,
+            },    
+             
         ],
         'sides' : [
+            {
+                'name': 'DAI',
+                'address': '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
+                'decimals': 18,
+                'minAmount':0.02,
             {
                 'name': 'WMATIC',
                 'address': '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
                 'decimals': 18,
-                'minAmount': 1,
+                'minAmount': 0.1,
             },
             {
                 'name': 'WETH',
                 'address': '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
                 'decimals': 18,
-                'minAmount': 0.001,
+                'minAmount': 0.0002,
             },
             {
                 'name': 'USDC',
                 'address': '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
                 'decimals': 6,
-                'minAmount': 1,
+                'minAmount': 0.02,
             },
         ],
     },
