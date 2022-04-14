@@ -34,7 +34,7 @@ models = {
     },
     'polygon': {
         'provider': 'http://localhost:8545',
-        "gasPrice": 100,        
+        "gasPrice": 5,        
         'exchangOracleAddr': '0xDc0aDF2c6bA9883D80cEa9695Da5E53943f679BA',
         'executorAddr': '0xAd213a8f2161beeA997159BF74e7Fdc450665d98',
         'routers': [
