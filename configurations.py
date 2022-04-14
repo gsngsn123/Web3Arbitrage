@@ -237,21 +237,20 @@ models = {
         'sides' : [
             {
                 'name': 'DAI',
-                'address':'0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
-                'decimals': 6,
-                'minAmount': 1,
-            },    
+                'address': '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
+                'decimals': 18,
+                'minAmount':1,
             {
                 'name': 'WMATIC',
                 'address': '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
                 'decimals': 18,
-                'minAmount': 0.5,
+                'minAmount': 1,
             },
             {
                 'name': 'WETH',
                 'address': '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
                 'decimals': 18,
-                'minAmount': 0.002,
+                'minAmount': 0.001,
             },
             {
                 'name': 'USDC',
