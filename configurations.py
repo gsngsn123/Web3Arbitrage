@@ -34,7 +34,7 @@ models = {
     },
     'polygon': {
         'provider': 'http://localhost:8545',
-        "gasPrice": 5,        
+        "gasPrice": 70,        
         'exchangOracleAddr': '0xDc0aDF2c6bA9883D80cEa9695Da5E53943f679BA',
         'executorAddr': '0xAd213a8f2161beeA997159BF74e7Fdc450665d98',
         'routers': [
@@ -239,25 +239,25 @@ models = {
                 'name': 'DAI',
                 'address':'0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
                 'decimals': 6,
-                'minAmount': 0.2,
+                'minAmount': 0.5,
             },    
             {
                 'name': 'WMATIC',
                 'address': '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
                 'decimals': 18,
-                'minAmount': 0.2,
+                'minAmount': 0.5,
             },
             {
                 'name': 'WETH',
                 'address': '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
                 'decimals': 18,
-                'minAmount': 0.0002,
+                'minAmount': 0.002,
             },
             {
                 'name': 'USDC',
                 'address': '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
                 'decimals': 6,
-                'minAmount': 0.2,
+                'minAmount': 0.5,
             },
         ],
     },
