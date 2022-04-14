@@ -78,11 +78,6 @@ models = {
       
        'bases': [
             {
-                'name': 'DAI',
-                'address': '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
-                'decimals': 18,
-            },
-            {
                 'name': 'mimatic',
                 'address': '0xa3Fa99A148fA48D14Ed51d610c367C61876997F1',
                 'decimals': 18,
@@ -97,6 +92,16 @@ models = {
                 'address': '0x2F800Db0fdb5223b3C3f354886d907A671414A7F',
                 'decimals': 18,
             },
+            {
+                'name': 'dpi',
+                'address': '0x2F800Db0fdb5223b3C3f354886d907A671414A7F',
+                'decimals': 18,
+            },
+           { 
+               'name': 'fxs',
+               'address': 'fxs',
+               'decimals': 18,
+           },
            {
                'name': 'frax',
                'address': '0x45c32fA6DF82ead1e2EF74d17b76547EDdFaFF89',
@@ -111,11 +116,16 @@ models = {
                'name': 'grt',
                'address': '0x5fe2B58c013d7601147DcdD68C143A77499f5531',
                'decimals': 18,
+            },
+           {
+               'name': 'iron',
+               'address': '0xD86b5923F3AD7b585eD81B448170ae026c65ae9a',
+               'decimals': 18,
            },
            {
-               'name': 'klima', 
-               'address': '0x4e78011Ce80ee02d2c3e649Fb657E45898257815',
-               'decimals': 9,
+               'name': 'klima',
+               'address': '0xd50EC6360f560a59926216Eafb98395AC430C9fD',
+               'decimals': 18,
            },
            {
                'name': 'nexo',
@@ -131,7 +141,7 @@ models = {
                'name': 'WBtc',
                'address': '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6',
                'decimals': 8,
-            },   
+           },   
             {
                 'name': 'QUICK',
                 'address': '0x831753DD7087CaC61aB5644b308642cc1c33Dc13',
@@ -232,15 +242,15 @@ models = {
         'sides' : [
             {
                 'name': 'DAI',
-                'address': '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
-                'decimals': 18,
+                'address':'0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
+                'decimals': 6,
                 'minAmount': 0.1,
-            },
+            },    
             {
                 'name': 'WMATIC',
                 'address': '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
                 'decimals': 18,
-                'minAmount': 0.06,
+                'minAmount': 0.1,
             },
             {
                 'name': 'WETH',
@@ -253,169 +263,6 @@ models = {
                 'address': '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
                 'decimals': 6,
                 'minAmount': 0.1,
-            },
-             {
-                'name': 'mimatic',
-                'address': '0xa3Fa99A148fA48D14Ed51d610c367C61876997F1',
-                'decimals': 18,
-                'minAmount': 0.1,
-            },
-            {
-                'name': 'FISH',
-                'address': '0x3a3Df212b7AA91Aa0402B9035b098891d276572B',
-                'decimals': 18,
-                'minAmount': 0.4,
-            },
-            {
-                'name': 'bct',
-                'address': '0x2F800Db0fdb5223b3C3f354886d907A671414A7F',
-                'decimals': 18,
-                'minAmount': 0.03,
-            },
-           {
-               'name': 'frax',
-               'address': '0x45c32fA6DF82ead1e2EF74d17b76547EDdFaFF89',
-               'decimals': 18,
-               'minAmount': 0.1,
-           },
-           {
-               'name': 'ghst',
-               'address': '0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7',
-               'decimals': 18,
-               'minAmount': 0.05,
-           },
-           {
-               'name': 'grt',
-               'address': '0x5fe2B58c013d7601147DcdD68C143A77499f5531',
-               'decimals': 18,
-               'minAmount': 0.3,
-            },
-           {
-               'name': 'klima',
-               'address': '0x4e78011Ce80ee02d2c3e649Fb657E45898257815',
-               'decimals': 9,
-               'minAmount': 0.02,
-           },
-           {
-               'name': 'nexo',
-               'address': '0x41b3966B4FF7b427969ddf5da3627d6AEAE9a48E',
-               'decimals': 18,
-               'minAmount': 0.05,
-           },
-           {
-               'name': 'sand',
-               'address': '0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683',
-               'decimals': 18,
-               'minAmount': 0.04,
-           },
-           {
-               'name': 'WBtc',
-               'address': '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6',
-               'decimals': 8,
-               'minAmount': 0.0000024,
-           },   
-            {
-                'name': 'QUICK',
-                'address': '0x831753DD7087CaC61aB5644b308642cc1c33Dc13',
-                'decimals': 18,
-                'minAmount': 0.01,
-            },
-            {
-                'name': 'AAVE',
-                'address': '0xD6DF932A45C0f255f85145f286eA0b292B21C90B',
-                'decimals': 18,
-                'minAmount': 0.01,
-            },
-            {
-                'name': 'SUSHI',
-                'address': '0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a',
-                'decimals': 18,
-                'minAmount': 0.007,
-            },
-            {
-                'name': 'DFYN',
-                'address': '0xC168E40227E4ebD8C1caE80F7a55a4F0e6D66C97',
-                'decimals': 18,
-                'minAmount': 1,
-            },
-            {
-                'name': 'BIFI',
-                'address': '0xFbdd194376de19a88118e84E279b977f165d01b8',
-                'decimals': 18,
-                'minAmount': 0.00006530612244897959,
-            },
-        
-            {
-                'name': 'ADDY',
-                'address': '0xc3FdbadC7c795EF1D6Ba111e06fF8F16A20Ea539',
-                'decimals': 18,
-                'minAmount': 0.2,
-            },
-            {
-                'name': 'BAL',
-                'address': '0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3',
-                'decimals': 18,
-                'minAmount': 0.01,
-            },
-            {
-                'name': 'LINK',
-                'address': '0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39',
-                'decimals': 18,
-                'minAmount': 0.01,
-            },
-            {
-                'name': 'UNI',
-                'address': '0xb33EaAd8d922B1083446DC23f610c2567fB5180f',
-                'decimals': 18,
-                'minAmount': 0.01,
-            },
-            {
-                'name': 'MANA',
-                'address': '0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4',
-                'decimals': 18,
-                'minAmount': 0.05,
-            },
-            {
-                'name': 'UST',
-                'address': '0x692597b009d13C4049a947CAB2239b7d6517875F',
-                'decimals': 18,
-                'minAmount': 0.1,
-            },
-            {
-                'name': 'CRV',
-                'address': '0x172370d5Cd63279eFa6d502DAB29171933a610AF',
-                'decimals': 18,
-                'minAmount': 0.05,
-            },
-            {
-                'name': 'SAND',
-                'address': '0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683',
-                'decimals': 18,
-                'minAmount': 0.03,
-            },
-            {
-                'name': 'COMP',
-                'address': '0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c',
-                'decimals': 18,
-                'minAmount': 0.0003,
-            },
-            {
-                'name': 'SNX',
-                'address': '0x50B728D8D964fd00C2d0AAD81718b71311feF68a',
-                'decimals': 18,
-                'minAmount': 0.02,
-            },
-            {
-                'name': '1INCH',
-                'address': '0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f',
-                'decimals': 18,
-                'minAmount': 0.07,
-            },
-            {
-                'name': 'YFI',
-                'address': '0xDA537104D6A5edd53c6fBba9A898708E465260b6',
-                'decimals': 18,
-                'minAmount': 0.000005110,
             },
         ],
     },
